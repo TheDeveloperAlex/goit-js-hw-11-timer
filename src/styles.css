@@ -1,0 +1,23 @@
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 50px;
+}
+
+.time {
+  font-size: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.label {
+  font-size: 50px;
+  color: lightgreen;
+  display: block;
+  text-align: center;
+}
